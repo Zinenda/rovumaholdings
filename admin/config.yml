@@ -46,3 +46,11 @@ collections:
     fields:
       - {label: "Nome", name: "title", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
+
+  - label: "Representantes"
+    name: "representantes"
+    folder: "collections/_representantes"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
