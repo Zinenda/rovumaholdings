@@ -1,0 +1,17 @@
+<section id="pessoal" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            {% for item in site.pessoal %}
+                <div class="col s12 l3">
+                    <img src="{{ item.image }}" alt="{{ item.title }}" class="profile-img">
+                    <div class="profile-text">
+                        <div class="text">
+                            <p class="bolder">{{ item.title }}</p>
+                            <p class="thin">{{ item.job_title }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

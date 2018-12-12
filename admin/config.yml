@@ -30,3 +30,11 @@ collections:
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icone", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
+
+  - label: "Pessoal"
+    name: "pessoal"
+    folder: "collections/_pessoal"
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Cargo", name: "job_title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
