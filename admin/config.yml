@@ -54,3 +54,11 @@ collections:
     fields:
       - {label: "Nome", name: "title", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
+
+  - label: "Clientes"
+    name: "clientes"
+    folder: "collections/_clientes"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
