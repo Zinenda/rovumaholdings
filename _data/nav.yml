@@ -1,0 +1,27 @@
+- title: ""
+  icon: home
+  link: "#home"
+
+- title: Sobre
+  icon: info-circle
+  link: "#sobre"
+
+- title: Serviços
+  icon: briefcase
+  link: "#servicos"
+
+- title: Pessoal
+  icon: users
+  link: "#pessoal"
+
+- title: Parceiros
+  icon: user-friends
+  link: "#parceiros"
+
+- title: Representantes
+  icon: user-tie
+  link: "#representantes"
+
+- title: Clientes
+  icon: user-tag
+  link: "#clientes"
