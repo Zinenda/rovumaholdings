@@ -1,0 +1,11 @@
+{
+  "name": "RovumaHoldings",
+  "version": "1.0.0",
+  "description": "Onde o Incrivel Acontece",
+  "main": "index.js",
+  "author": "Ivo Zinenda",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "next"
+  }
+}

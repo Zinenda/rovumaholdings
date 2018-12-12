@@ -1,0 +1,34 @@
+title: Rovuma Holdings
+email: geral@rovumaholdings.com
+description: >- # this means to ignore newlines until "baseurl:"
+  "Onde o Incrível Acontece"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rovumaholdings.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-email-protect
+  - jekyll-analytics
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+sass:
+  style: compressed
+  sass_dir: assets/_sass
+
+image:
+logo:
