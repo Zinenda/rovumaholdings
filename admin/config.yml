@@ -38,3 +38,11 @@ collections:
       - {label: "Nome", name: "title", widget: "string"}
       - {label: "Cargo", name: "job_title", widget: "string"}
       - {label: "Foto", name: "image", widget: "image"}
+
+  - label: "Parcerios"
+    name: "parceiros"
+    folder: "collections/_parceiros"
+    create: true
+    fields:
+      - {label: "Nome", name: "title", widget: "string"}
+      - {label: "Foto", name: "image", widget: "image"}
