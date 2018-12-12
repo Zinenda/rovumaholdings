@@ -1,0 +1,21 @@
+<section id="servicos" class="section scrollspy">
+	<div class="container">
+		<h4 class="bolder center-align">
+			<i class="fas fa-briefcase"></i>
+			Serviços
+		</h4>
+
+		<div class="row slick">
+			{% for item in site.servicos %}
+				<div>
+					<div class="card-panel hoverable center">
+						<a href="#{{ item.title |downcase }}" class="modal-trigger primary-color-text">
+							<i class="fas fa-5x fa-{{ item.icon }}"></i>
+							<p class="bolder">{{ item.title }}</p>
+						</a>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

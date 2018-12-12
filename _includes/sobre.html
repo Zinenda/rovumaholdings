@@ -1,9 +1,10 @@
 <section id="sobre" class="section scrollspy">
     <div class="container">
+        <h4 class="center-align bolder"><i class="fas fa-info-circle"></i> Sobre</h4>
         <div class="row">
             {% for item in site.sobre limit: 4 %}
                 <div class="col s12 l3">
-                    <h4 class="bolder">{{ item.title }}</h4>
+                    <h5 class="bolder">{{ item.title }}</h5>
                     <div class="light justify">
                         {{ item.content }}
                     </div>
