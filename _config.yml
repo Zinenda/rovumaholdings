@@ -1,7 +1,7 @@
 title: Rovuma Holdings
 email: geral@rovumaholdings.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "Onde o Incrível Acontece"
+  Onde o Incrível Acontece
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rovumaholdings.com" # the base hostname & protocol for your site, e.g. http://example.com
 

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.vector-bg {
+    background-image: url(/assets/img/bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.bolder {
+    font-style: bolder;
+}
+
+
+@import
+    "base",
+    "animate-bottom",
+    "materialize/materialize"
+;
