@@ -1,0 +1,23 @@
+- title: Facebook
+  icon: facebook-f
+  link: https://fb.com/
+
+- title: Messenger
+  icon: facebook-messenger
+  link: https://m.me/
+
+- title: WhatsApp
+  icon: whatsapp
+  link: https://wa.me/258846744888
+
+- title: Instagram
+  icon: instagram
+  link: https://instagram/
+
+- title: Email
+  icon: envelope-open-text
+  link: mailto:geral@rovumaholdings.com
+
+- title: Telefone
+  icon: phone
+  link: tel:258846744888

@@ -1,0 +1,19 @@
+<div class="center">
+    <ul class="inline-list">
+        {% for item in site.data.contacts limit: 4 %}
+            <li>
+                <a href="{{ item.link }}" title="{{ item.title }}" class="btn-floating waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="{{ item.title }}">
+                    <i class="fab fa-{{ item.icon }}"></i>
+                </a>
+            </li>
+        {% endfor %}
+
+        {% for item in site.data.contacts offset: 4 %}
+            <li>
+                <a href="{{ item.link }}" title="{{ item.title }}" class="btn-floating waves-effect waves-light tooltipped" data-position="top" data-delay="50" data-tooltip="{{ item.title }}">
+                    <i class="fas fa-{{ item.icon }}"></i>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
