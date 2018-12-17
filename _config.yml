@@ -32,3 +32,13 @@ sass:
 
 image:
 logo:
+
+collections_dir: collections
+collections:
+  sobre:
+  slider:
+  pessoal:
+  clientes:
+  servicos:
+  parceiros:
+  representantes:
