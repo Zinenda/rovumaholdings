@@ -1,10 +1,17 @@
-<section id="sobre" class="section scrollspy vector-bg">
+<section id="sobre" class="section scrollspy vector-bg grey-text text-darken-4">
     <div class="container">
-        <h4 class="center-align bolder">Sobre Nós</h4>
+        <h4 class="center-align bolder section-title">Sobre Nós</h4>
         <div class="row">
-            {% for item in site.sobre limit: 4 %}
-                <div class="col s12 l3">
-                    <h5 class="bolder">{{ item.title }}</h5>
+            {% for item in site.sobre limit: 1 %}
+                <div class="justify">
+                    {{ item.content }}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            {% for item in site.sobre offset: 1 %}
+                <div class="col s12 l4">
+                    <h5 class="bolder"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
                     <div class="light justify">
                         {{ item.content }}
                     </div>

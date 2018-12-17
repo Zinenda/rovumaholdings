@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .bolder {
@@ -17,3 +18,7 @@
     "animate-bottom",
     "materialize/materialize"
 ;
+
+.section-title {
+    color: $primary-color;
+}
