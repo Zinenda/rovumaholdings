@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
 .vector-bg {
-    background-image: url(/assets/img/bg.svg);
+    background-image: url(/assets/img/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
 }
 
 .bolder {
-    font-style: bolder;
+    font-weight: bolder;
 }
 
 
