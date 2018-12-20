@@ -1,12 +1,38 @@
 <footer class="page-footer">
     <div class="container">
         <div class="row">
+            <div class="col s12 l4">
+                <h6 class="bolder"><i class="fas fa-map-marker"></i> Endereços</h6>
+                <ul>
+                    <li>Av. Chai, Bairro Cariaco</li>
+                    <li>Cidade de Pemba, Cabo Delgado, Moçambique</li>
+                    <li>Maputo, Beira, Tete, Nampula e Nacala</li>
+                </ul>
+            </div>
 
+            <div class="col s12 l4">
+                <h6 class="bolder"><i class="fas fa-headset"></i> Centro de Apoio</h6>
+                <ul>
+                    <li>
+                        <a class="white-text" href="tel:+258 272 20 162">+258 272 20 162</a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="tel:+258 272 20 166">+258 272 20 166</a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="tel:+258 87 074 4880">+258 87 074 4880</a>
+                    </li>
+
+                    <li>
+                        <a class="white-text" href="mailto:{{ site.email | encode }}">{{ site.email }}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container center">
-            &copy;{{ site.time | "%Y" }} {{ site.title }} - {{ site.description }}, Todos Direitos Reservados
+            &copy;{{ site.time | date: "%Y" }} {{ site.title }} - {{ site.description }}, Todos Direitos Reservados
         </div>
     </div>
 </footer>

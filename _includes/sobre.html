@@ -8,9 +8,9 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="row">
+        <div class="row slick-sobre">
             {% for item in site.sobre offset: 1 %}
-                <div class="col s12 l4">
+                <div style="padding: 20px;">
                     <h5 class="bolder"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
                     <div class="light justify">
                         {{ item.content }}
