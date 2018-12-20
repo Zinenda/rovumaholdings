@@ -1,10 +1,10 @@
 <section id="pessoal" class="section scrollspy vector-bg">
     <div class="container">
         <h4 class="center-align bolder section-title">Nosso Pessoal</h4>
-        <div class="row">
+        <div class="row slick">
             {% for item in site.pessoal %}
-                <div class="col s12 l3">
-                    <img src="{{ item.image }}" alt="{{ item.title }}" class="profile-img">
+                <div class="profile">
+                    <img src="{{ item.image }}" alt="{{ item.title }}" class="profile-img hoverable">
                     <div class="profile-text">
                         <div class="text">
                             <p class="bolder">{{ item.title }}</p>

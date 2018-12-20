@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-.vector-bg {
-    background-image: url(/assets/img/bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .bolder {
     font-weight: bolder;
 }
@@ -16,7 +8,9 @@
 @import
     "base",
     "animate-bottom",
-    "materialize/materialize"
+    "materialize/materialize",
+    "profile",
+    "parallax"
 ;
 
 .section-title {
