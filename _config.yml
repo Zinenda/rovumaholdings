@@ -30,8 +30,8 @@ sass:
   style: compressed
   sass_dir: assets/_sass
 
-image:
-logo:
+image: /assets/img/brand/logotype.svg
+logo: /assets/img/brand/logo.svg
 
 collections_dir: collections
 collections:

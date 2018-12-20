@@ -1,27 +1,25 @@
-<section id="parceiros" class="section scrollsp">
+<section id="parceiros" class="section scrollspy center white-text">
 	<div class="container">
 		<div class="row">
-			<div class="col s12 l6">
-				<h4 class="bolder section-title white-text">Parceiros</h4>
-				<div class="carousel">
+			<h4 class="bolder">Parceiros</h4>
+				<div class="slick-autoplay">
 					{% for item in site.parceiros %}
-						<a href="#parceiro{{ forloop.index }}" class="carousel-item">
-							<img src="{{ item.image }}" alt="{{ item.title }}">
-						</a>
+						<div>
+							<img src="{{ item.image }}" alt="{{ item.title }}" width="150" height="150">
+						</div>
 					{% endfor %}
 				</div>
-			</div>
+		</div>
 
-			<div class="col s12 l6">
-				<h4 class="bolder section-title right-align white-text">Representantes</h4>
-				<div class="carousel">
+		<div class="row">
+			<h4 class="bolder">Representantes</h4>
+				<div class="slick-autoplay">
 					{% for item in site.representantes %}
-						<a href="#representantes{{ forloop.index }}" class="carousel-item">
+						<div>
 							<img src="{{ item.image }}" alt="{{ item.title }}">
-						</a>
+						</div>
 					{% endfor %}
 				</div>
-			</div>
 		</div>
 	</div>
 </section>

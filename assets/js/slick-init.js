@@ -71,7 +71,7 @@ $('.slick-sobre').slick({
   ]
 });
 
-$('.autoplay').slick({
+$('.slick-autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
