@@ -3,7 +3,12 @@
         <div class="nav-wrapper">
             <div class="container">
                 <a href="/" class="brand-logo">
-                    {{ site.title }}
+                    <div class="hide-on-med-and-down">
+                        {{ site.title }}
+                    </div>
+                    <div class="hide-on-large-only">
+                        Rovuma
+                    </div>
                 </a>
                 <a data-target="sideNav" class="sidenav-trigger">
                     <i class="fas fa-2x fa-bars"></i>
