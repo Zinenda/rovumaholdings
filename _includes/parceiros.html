@@ -1,25 +1,27 @@
 <section id="parceiros" class="section scrollspy center white-text">
 	<div class="container">
 		<div class="row">
-			<h4 class="bolder">Parceiros</h4>
-				<div class="slick-autoplay">
-					{% for item in site.parceiros %}
-						<div>
-							<img src="{{ item.image }}" alt="{{ item.title }}" width="150" height="150">
-						</div>
-					{% endfor %}
-				</div>
-		</div>
+			<div class="col s12 l6">
+				<h4 class="bolder">Parceiros</h4>
+					<div class="slick-autoplay">
+						{% for item in site.parceiros %}
+							<div>
+								<img src="{{ item.image }}" alt="{{ item.title }}" width="100" height="100">
+							</div>
+						{% endfor %}
+					</div>
+			</div>
 
-		<div class="row">
-			<h4 class="bolder">Representantes</h4>
-				<div class="slick-autoplay">
-					{% for item in site.representantes %}
-						<div>
-							<img src="{{ item.image }}" alt="{{ item.title }}">
-						</div>
-					{% endfor %}
-				</div>
+			<div class="col s12 l6">
+				<h4 class="bolder">Representantes</h4>
+					<div class="slick-autoplay">
+						{% for item in site.representantes %}
+							<div>
+								<img src="{{ item.image }}" alt="{{ item.title }}" width="100" height="100">
+							</div>
+						{% endfor %}
+					</div>
+			</div>
 		</div>
 	</div>
 </section>
