@@ -1,0 +1,71 @@
+#sobre {
+    hr.star {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+        border-color: $primary-color;
+
+        &:after {
+            content: "\f05a";
+            display: inline-block;
+            position: relative;
+            top: -.8em;
+            padding: 0 .25em;
+            color: $primary-color;
+            background-color: #fff;
+            font-family: "Font Awesome 5 Free";
+            font-size: 2em;
+        }
+    }
+}
+
+#servicos {
+    hr.star {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+        border-color: $primary-color;
+
+        &:after {
+            content: "\f0b1";
+            display: inline-block;
+            position: relative;
+            top: -.8em;
+            padding: 0 .25em;
+            color: $primary-color;
+            background-color: #fff;
+            font-family: "Font Awesome 5 Free";
+            font-size: 2em;
+        }
+    }
+}
+
+#pessoal {
+    hr.star {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+        border-color: $primary-color;
+
+        &:after {
+            content: "\f0c0";
+            display: inline-block;
+            position: relative;
+            top: -.8em;
+            padding: 0 .25em;
+            color: $primary-color;
+            background-color: #fff;
+            font-family: "Font Awesome 5 Free";
+            font-size: 2em;
+        }
+    }
+}
