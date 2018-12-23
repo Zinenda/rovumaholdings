@@ -1,7 +1,7 @@
 ---
 title: Despacho Aduáneiro
 icon: shipping-fast
-image: 
+image: /assets/img/uploads/pexels-photo-1059113.jpeg
 ---
 
 - Desembaraço de Importação & Exportação; 
