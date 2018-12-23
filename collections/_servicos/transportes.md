@@ -1,7 +1,7 @@
 ---
 title: Trasportes
 icon: truck-moving
-image:
+image: /assets/img/uploads/pexels-photo-1267325.jpeg
 ---
 
 Transporte e Distribuição:
