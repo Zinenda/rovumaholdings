@@ -30,7 +30,7 @@
         border: 0;
         border-top: solid 5px;
         text-align: center;
-        border-color: $primary-color;
+        border-color: #fff;
 
         &:after {
             content: "\f0b1";
@@ -38,8 +38,8 @@
             position: relative;
             top: -.8em;
             padding: 0 .25em;
-            color: $primary-color;
-            background-color: #fff;
+            color: #fff;
+            background-color: $primary-color;
             font-family: "Font Awesome 5 Free";
             font-size: 2em;
         }

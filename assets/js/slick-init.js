@@ -1,3 +1,5 @@
+$('.single-item').slick();
+
 $('.slick').slick({
     dots: true,
     infinite: false,

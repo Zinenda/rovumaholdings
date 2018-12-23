@@ -30,6 +30,7 @@ collections:
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icone", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
+      - {label: "Imagem", name: "image", widget: "image"}
 
   - label: "Pessoal"
     name: "pessoal"
