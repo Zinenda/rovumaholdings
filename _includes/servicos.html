@@ -1,13 +1,16 @@
-<section id="servicos" class="section scrollspy white-text primary-color">
+<section id="servicos" class="section scrollspy">
 	<div class="container">
-		<h4 class="center-align bolder">Nossos Serviços</h4>
+		<h4 class="center-align bolder section-title">Nossos Serviços</h4>
 		<hr class="star">
 		<div class="row">
 			<div class="col s12 l6">
 				<div class="single-item">
 					{% for item in site.servicos %}
 						<div>
-							<img src="{{ item.image }}" alt="{{ item.title }}" class="responsive-ing">
+							<div class="img-title">
+								<img src="{{ item.image }}" alt="{{ item.title }}" class="responsive-ing">
+								<h5><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
+							</div>
 						</div>
 					{% endfor %}
 				</div>

@@ -1,4 +1,11 @@
-$('.single-item').slick();
+$('.single-item').slick({
+  dots: true,
+  infinite: true,
+  arrows: false,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
 
 $('.slick').slick({
     dots: true,
