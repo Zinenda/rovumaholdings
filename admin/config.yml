@@ -22,6 +22,7 @@ collections:
     folder: "collections/_sobre"
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Icones", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
 
   - label: "Serviços"
