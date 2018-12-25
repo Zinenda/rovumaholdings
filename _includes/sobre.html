@@ -12,7 +12,7 @@
         <div class="row slick-sobre">
             {% for item in site.sobre offset: 1 %}
                 <div style="padding: 20px;">
-                    <h5 class="bolder"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
+                    <p class="bolder section-title"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
                     <div class="light justify">
                         {{ item.content }}
                     </div>

@@ -9,7 +9,7 @@
 						<div>
 							<div class="img-title">
 								<img src="{{ item.image }}" alt="{{ item.title }}" class="responsive-ing">
-								<h5><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
+								<h6><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h6>
 							</div>
 						</div>
 					{% endfor %}
@@ -20,7 +20,7 @@
 				<div class="single-item">
 					{% for item in site.servicos %}	
 						<div>
-							<p class="bolder"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
+							<p class="bolder section-title"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
 							<div class="light justify">
 								{{ item.content }}
 							</div>
