@@ -1,5 +1,5 @@
 ---
-title: Estrégia
+title: Nossa Estrégia
 icon: file-contract
 ---
 

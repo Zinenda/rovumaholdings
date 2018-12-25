@@ -1,5 +1,5 @@
 ---
-title: Compromisso
+title: Nosso Compromisso
 icon: business-time
 ---
 

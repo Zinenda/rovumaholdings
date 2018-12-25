@@ -1,5 +1,5 @@
 ---
-title: Trasportes
+title: Transportes
 icon: truck-moving
 image: /assets/img/uploads/pexels-photo-1267325.jpg
 ---

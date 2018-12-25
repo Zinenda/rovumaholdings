@@ -1,5 +1,5 @@
 ---
-title: Política Integrada - Saúde e Bem-Estar
+title: Política Integrada - Saúde, Qualidade, Segurança e Meio Ambiente
 icon: hand-holding-heart
 ---
 Para nós, o ser humano em sua integridade é um valor que esta acima dos demais objetivos e prioridades da Empresa.

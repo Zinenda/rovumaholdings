@@ -1,5 +1,5 @@
 ---
-title: Principios
+title: Princípios Orientadores
 icon: check-double
 ---
 
