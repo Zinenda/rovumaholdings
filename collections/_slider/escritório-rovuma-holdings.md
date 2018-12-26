@@ -1,6 +1,5 @@
 ---
-title: Escritório Rovuma Holdings
-description: 'Localização do Escritório da Rovuma Holdings, Lda'
+title: Nossa Agência
 image: /assets/img/uploads/estabelecimento_rovumaholdings.jpg
 ---
 

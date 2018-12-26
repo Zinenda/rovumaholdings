@@ -1,5 +1,5 @@
 ---
-title: Nossa Estrégia de Actuação
+title: Nossa Estratégia de Actuação
 icon: file-contract
 ---
 
