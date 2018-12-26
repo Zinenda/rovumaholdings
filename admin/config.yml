@@ -39,9 +39,11 @@ collections:
     create: true
     folder: "collections/_pessoal"
     fields:
+      - {label: "Foto", name: "image", widget: "image"}
       - {label: "Nome", name: "title", widget: "string"}
       - {label: "Cargo", name: "job_title", widget: "string"}
-      - {label: "Foto", name: "image", widget: "image"}
+      - {label: "Telefone-celular", name: "phone", widget: "number"}
+      - {label: "Email", name: "email", widget: "string"}
 
   - label: "Parcerios"
     name: "parceiros"

@@ -1,15 +1,21 @@
-<section id="pessoal" class="section scrollspy vector-bg">
+<section id="pessoal" class="section scrollspy vector-bg grey-text text-darken-4 center">
     <div class="container">
-        <h4 class="center-align bolder section-title">Nosso Pessoal</h4>
+        <h4 class="bolder section-title">Nosso Pesoal</h4>
         <hr class="star">
         <div class="row slick">
             {% for item in site.pessoal %}
-                <div class="profile" style="padding: 10px;">
-                    <img src="{{ item.image }}" alt="{{ item.title }}" class="profile-img hoverable">
-                    <div class="profile-text">
-                        <div class="text">
+                <div style="padding: 20px">
+                    <div class="card small hoverable">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="responsive-img">
+                        </div>
+                        <div class="card-content">
                             <p class="bolder">{{ item.title }}</p>
-                            <p class="thin">{{ item.job_title }}</p>
+                            <p class="light">{{ item.job_title }}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="mailto:{{ item.email }}" title="Email" class="btn hide-on-small-only">Contacto <i class="fas fa-envelope"></i></a>
+                            <a href="tel:+258{{ item.phone }}" title="Email" class="btn hide-on-med-and-up">Contacto <i class="fas fa-phone"></i></a>
                         </div>
                     </div>
                 </div>
