@@ -1,5 +1,5 @@
 ---
 title: Nossa Agência
-image: /assets/img/uploads/estabelecimento_rovumaholdings.jpg
+image: /assets/img/uploads/agencia.jpg
 ---
 
