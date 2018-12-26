@@ -18,6 +18,14 @@
     }
 }
 
+@media only screen and (max-device-width: 1366px) {
+    .page-header,
+    .vector-bg,
+    #parceiros {
+      background-attachment: scroll;
+    }
+  }
+
 .vector-bg {
     background-image: url(/assets/img/bg.png);
     background-position: center;

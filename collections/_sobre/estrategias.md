@@ -1,5 +1,5 @@
 ---
-title: Nossa Estrégia
+title: Nossa Estrégia de Actuação
 icon: file-contract
 ---
 
