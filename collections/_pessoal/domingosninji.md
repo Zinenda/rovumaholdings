@@ -1,5 +1,8 @@
 ---
+image: /assets/img/uploads/domingos-njini.jpg
 title: Domingos Njini
 job_title: Assistente Administrativo
-image: /assets/img/professional-man-portrait_925x.jpg
+phone: '844479879'
+email: domingos@rovumaholdings.com
 ---
+

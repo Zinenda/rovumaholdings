@@ -1,5 +1,8 @@
 ---
+image: /assets/img/uploads/user-regular.svg
 title: Aderito Jamnadas
 job_title: Auxiliar de Despachante
-image: /assets/img/professional-man-portrait_925x.jpg
+phone: '840281103'
+email: ajamnadas@rovumaholdings.com
 ---
+
