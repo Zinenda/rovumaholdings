@@ -1,6 +1,7 @@
 ---
 title: Nosso Compromisso
 icon: business-time
+lang: pt
 ---
 
 Estamos comprometidos a buscar a melhoria continua em relação à saúde e à segurança das pessoas, ao meio ambiente, a eﬁcácia dos processos e a satisfação dos clientes com a qualidade dos produtos e serviços. 

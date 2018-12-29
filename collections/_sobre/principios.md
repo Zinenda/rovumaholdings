@@ -1,6 +1,7 @@
 ---
 title: Princípios Orientadores
 icon: check-double
+lang: pt
 ---
 
 Estamos comprometidos a buscar a melhoria continua em relação á saúde e a segurança das pessoas, ao meio ambiente, a eﬁcâcia dos parceiros e a satisfação dos clientes com a qualidade dos productos e serviços.

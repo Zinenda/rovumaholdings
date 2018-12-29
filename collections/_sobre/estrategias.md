@@ -1,6 +1,7 @@
 ---
 title: Nossa Estratégia de Actuação
 icon: file-contract
+lang: pt
 ---
 
 A nossa estratégia de actuação consiste na oferta de soluções inovadoras com focus na satisfação e criação de valor aos clientes, baseando-se na seguinte abordagem:

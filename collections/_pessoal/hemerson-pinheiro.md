@@ -1,9 +1,9 @@
 ---
 image: /assets/img/uploads/hemerson-pinheiro.jpg
 title: Hemerson Pinheiro
-job_title: Director de Logística e Operações
+job_title: Director of Logistics and Operations
 phone: '848345380'
 email: hemersonp@rovumaholdings.com
-lang: pt
+lang: en
 ---
 

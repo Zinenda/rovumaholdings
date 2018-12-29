@@ -2,6 +2,7 @@
 title: Despacho Aduáneiro
 icon: shipping-fast
 image: /assets/img/uploads/lmrs-blog-dta.png
+lang: pt
 ---
 
 - Desembaraço de Importação & Exportação; 

@@ -1,9 +1,16 @@
 <section id="pessoal" class="section scrollspy vector-bg grey-text text-darken-4 center">
     <div class="container">
-        <h4 class="bolder section-title">Nosso Pessoal</h4>
+        <h4 class="bolder section-title">
+            {% if page.lang == "pt" %}
+                Nosso Pessoal
+                {% elsif page.lang == "en" %}
+                    Our Stuff
+            {% endif %}
+        </h4>
         <hr class="star">
+        {% assign pessoal=site.pessoal | where:"lang", page.lang %}
         <div class="row slick">
-            {% for item in site.pessoal %}
+            {% for item in pessoal %}
                 <div style="padding: 20px">
                     <div class="card small hoverable">
                         <div class="card-image">

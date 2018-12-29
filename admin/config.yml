@@ -11,38 +11,92 @@ collections:
     name: "slider"
     folder: "collections/_slider"
     create: true
+    filter: {field: "lang", value: "pt"}
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Imagem", name: "image", widget: "image"}
+
+  - label: "Slider_EN"
+    name: "slider_en"
+    folder: "collections/_slider"
+    create: true
+    filter: {field: "lang", value: "en"}
+    fields:
+      - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
   
   - label: "Sobre"
     name: "sobre"
     create: true
     folder: "collections/_sobre"
+    filter: {field: "lang", value: "pt"}
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icones", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
+
+  - label: "About"
+    name: "about"
+    create: true
+    folder: "collections/_sobre"
+    filter: {field: "lang", value: "en"}
+    fields:
+      - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Icons", name: "icon", widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown"}
 
   - label: "Serviços"
     name: "servicos"
     folder: "collections/_servicos"
     create: true
+    filter: {field: "lang", value: "pt"}
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icone", name: "icon", widget: "string"}
       - {label: "Descrição", name: "body", widget: "markdown"}
       - {label: "Imagem", name: "image", widget: "image"}
 
+  - label: "Servies"
+    name: "services"
+    folder: "collections/_servicos"
+    create: true
+    filter: {field: "lang", value: "en"}
+    fields:
+      - {label: "Languagem", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Icons", name: "icon", widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
+
   - label: "Pessoal"
     name: "pessoal"
     create: true
     folder: "collections/_pessoal"
+    filter: {field: "lang", value: "pt"}
     fields:
+      - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Foto", name: "image", widget: "image"}
       - {label: "Nome", name: "title", widget: "string"}
       - {label: "Cargo", name: "job_title", widget: "string"}
       - {label: "Telefone-celular", name: "phone", widget: "number"}
+      - {label: "Email", name: "email", widget: "string"}
+
+  - label: "Stuff"
+    name: "stuff"
+    create: true
+    folder: "collections/_pessoal"
+    filter: {field: "lang", value: "en"}
+    fields:
+      - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Job Title", name: "job_title", widget: "string"}
+      - {label: "Celphone", name: "phone", widget: "number"}
       - {label: "Email", name: "email", widget: "string"}
 
   - label: "Parcerios"

@@ -1,11 +1,18 @@
 <section id="servicos" class="section scrollspy grey lighten-4">
 	<div class="container">
-		<h4 class="center-align bolder section-title">Nossos Serviços</h4>
+		<h4 class="center-align bolder section-title">
+			{% if page.lang == "pt" %}
+				Nossos Serviços
+				{% elsif page.lang == "en" %}
+				Our Services
+			{% endif %}
+		</h4>
 		<hr class="star">
 		<div class="row">
 			<div class="col s12 l6">
 				<div class="single-item">
-					{% for item in site.servicos %}
+					{% assign servicos=site.servicos | where:"lang", page.lang %}
+					{% for item in servicos %}
 						<div>
 							<div class="img-title">
 								<img src="{{ item.image }}" alt="{{ item.title }}" class="responsive-ing">
@@ -18,7 +25,7 @@
 
 			<div class="col s12 l6">
 				<div class="single-item">
-					{% for item in site.servicos %}	
+					{% for item in servicos %}	
 						<div>
 							<p class="bolder section-title"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
 							<div class="light justify">

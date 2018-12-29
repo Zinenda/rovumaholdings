@@ -1,6 +1,6 @@
 ---
-title: Escritório Principal
+title: Main Office
 image: /assets/img/uploads/escritorioprincipal.jpg
-lang: pt
+lang: en
 ---
 

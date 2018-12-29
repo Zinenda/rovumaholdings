@@ -2,6 +2,7 @@
 title: Transportes
 icon: truck-moving
 image: /assets/img/uploads/vagas-para-motoristas-hungaro.jpg
+lang: pt
 ---
 
 Transporte e Distribuição:

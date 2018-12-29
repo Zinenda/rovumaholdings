@@ -1,6 +1,7 @@
 ---
 title: Visão
 icon: binoculars
+lang: pt
 ---
 
 Ser uma Empresa, moderna, dinâmica e lider no Mercado Nacional e Internacional dos serviços prestados; 

@@ -1,8 +1,8 @@
 ---
 image: /assets/img/uploads/user-regular.svg
 title: Olívia Xavier
-job_title: Secretária Executiva
-phone: '840000088'
+job_title: Executive Secretary
+phone: 
 email: olivia@rovumaholdings.com
-lang: pt
+lang: en
 ---

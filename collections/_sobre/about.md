@@ -1,6 +1,7 @@
 ---
 title: Quem Somos
 icon: info-circle
+lang: pt
 ---
 
 Somos uma empresa de prestação de serviços e comércio, constituida por profissionais qualificados e talentosos, com enorme conhecimento do mercado nacional e internacional, que reúnem um conjunto de competências em várias áreas e especialidades, o que permite-nos apresentar uma óptima qualidade.

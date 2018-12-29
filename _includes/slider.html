@@ -1,6 +1,7 @@
 <header class="slider hide-on-small-only">
     <ul class="slides">
-        {% for item in site.slider limit: 4 %}
+        {% assign slider=site.slider | where:"lang", page.lang %}
+        {% for item in slider limit: 4 %}
             <li>
                 <img src="{{ item.image }}" alt="{{ item.title }}">
                 <div class="caption center-align">
