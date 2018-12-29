@@ -1,23 +1,51 @@
-- title: ""
-  icon: home
-  link: "#home"
+pt:
+  Home:
+    title: Página Inicial
+    icon: home
+    link: "#home"
 
-- title: Sobre
-  icon: info-circle
-  link: "#sobre"
+  Sobre:
+    title: Sobre
+    icon: info-circle
+    link: "#sobre"
 
-- title: Serviços
-  icon: briefcase
-  link: "#servicos"
+  Servicos:
+    title: Serviços
+    icon: briefcase
+    link: "#servicos"
 
-- title: Pessoal
-  icon: users
-  link: "#pessoal"
+  Parceiros:
+    title: Parceiros
+    icon: user-friends
+    link: "#parceiros"
 
-- title: Parceiros
-  icon: user-friends
-  link: "#parceiros"
+  Pessoal:
+    title: Pessoal
+    icon: users
+    link: "#pessoal"
 
-- title: Clientes
-  icon: user-tag
-  link: "#clientes"
+en:
+  Home:
+    title: Home
+    icon: home
+    link: "#home"
+
+  Sobre:
+    title: About Us
+    icon: info-circle
+    link: "#sobre"
+
+  Servicos:
+    title: Services
+    icon: briefcase
+    link: "#servicos"
+
+  Parceiros:
+    title: Partners
+    icon: user-friends
+    link: "#parceiros"
+
+  Pessoal:
+    title: Our Stuff
+    icon: users
+    link: "#pessoal"

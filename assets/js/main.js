@@ -4,5 +4,6 @@ $(document).ready(function(){
     $('.slider').slider();
     $('.modal').modal();
     $('#mensagem').val('New Text');
-  $('.tooltipped').tooltip();
+    $('.tooltipped').tooltip();
+    $('.fixed-action-btn').floatingActionButton();
 });

@@ -1,6 +1,6 @@
 ---
 title: Direcção Executiva
-image: /assets/img/uploads/direccaoo_executiva.jpg
+image: /assets/img/uploads/direccao_executiva.jpg
 lang: pt
 ---
 

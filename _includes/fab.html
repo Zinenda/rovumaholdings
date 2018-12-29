@@ -1,0 +1,11 @@
+<div class="fixed-action-btn center">
+    {% if page.lang == "pt" %}
+        <a href="index-en.html" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="English">
+            <i class="fas fa-lg fa-globe"></i>
+        </a>
+        {% elsif page.lang == "en" %}
+            <a href="/" class="btn-floating waves-effect waves-circle waves-light tooltipped" data-position="left" data-delay="50" data-tooltip="Português">
+                <i class="fas fa-lg fa-globe"></i>
+            </a>
+    {% endif %}
+</div>

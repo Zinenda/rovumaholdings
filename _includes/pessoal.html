@@ -21,8 +21,8 @@
                             <p class="light">{{ item.job_title }}</p>
                         </div>
                         <div class="card-action">
-                            <a href="mailto:{{ item.email }}" title="Email" class="btn hide-on-small-only">Contacto <i class="fas fa-envelope"></i></a>
-                            <a href="tel:+258{{ item.phone }}" title="Email" class="btn hide-on-med-and-up">Contacto <i class="fas fa-phone"></i></a>
+                            <a href="mailto:{{ item.email }}" title="Email" class="btn hide-on-small-only">{% if page.lang == "pt" %}Contacte-me{% elsif page.lang == "en" %} Contact me {% endif %} <i class="fas fa-envelope"></i></a>
+                            <a href="tel:+258{{ item.phone }}" title="Email" class="btn hide-on-med-and-up">{% if page.lang == "pt" %}Contacte-me{% elsif page.lang == "en" %} Contact me {% endif %} <i class="fas fa-phone"></i></a>
                         </div>
                     </div>
                 </div>

@@ -2,20 +2,41 @@
     <div class="container">
         <div class="row">
             <div class="col s12 l4">
-                <h6 class="bolder"><i class="fas fa-map-marker"></i> Endereço Sede</h6>
+                <h6 class="bolder">
+                    <i class="fas fa-map-marker"></i> 
+                    {% if page.lang == "pt" %}
+                        Endereço - Sede
+                    {% elsif page.lang == "en"%}
+                        Address - Headquarters
+                    {% endif %}
+                </h6>
                 <ul>
                     <li>Av. Chai, Bairro Cariaco</li>
                     <li>Cidade de Pemba, Cabo Delgado, Moçambique</li>
                 </ul>
 
-                <h6 class="bolder"><i class="fas fa-map-marker-alt"></i> Sucursais</h6>
+                <h6 class="bolder">
+                    <i class="fas fa-map-marker-alt"></i> 
+                    {% if page.lang == "pt" %}
+                        Sucursais - Representantes
+                    {% elsif page.lang == "en"%}
+                        Branches - Representatives
+                    {% endif %}
+                </h6>
                 <ul>
                     <li>Maputo, Beira, Tete, Nampula e Nacala</li>
                 </ul>
             </div>
 
             <div class="col s12 l4">
-                <h6 class="bolder"><i class="fas fa-headset"></i> Centro de Apoio</h6>
+                <h6 class="bolder">
+                    <i class="fas fa-headset"></i> 
+                    {% if page.lang == "pt" %}
+                        Centro de Apoio
+                    {% elsif page.lang == "en"%}
+                        Support Center
+                    {% endif %}
+                </h6>
                 <ul>
                     <li>
                         <a class="white-text" href="tel:+258 272 20 162">+258 272 20 162</a>
