@@ -16,16 +16,6 @@ collections:
       - {label: "Idioma", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Imagem", name: "image", widget: "image"}
-
-  - label: "Slider_EN"
-    name: "slider_en"
-    folder: "collections/_slider"
-    create: true
-    filter: {field: "lang", value: "en"}
-    fields:
-      - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
   
   - label: "Sobre"
     name: "sobre"
@@ -67,7 +57,7 @@ collections:
     create: true
     filter: {field: "lang", value: "en"}
     fields:
-      - {label: "Languagem", name: "lang", widget: "select", options: ["pt", "en"]}
+      - {label: "Language", name: "lang", widget: "select", options: ["pt", "en"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Icons", name: "icon", widget: "string"}
       - {label: "Description", name: "body", widget: "markdown"}
