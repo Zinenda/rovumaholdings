@@ -1,6 +1,6 @@
 {% for item in site.data.nav[page.lang] %}
     <li>
-        <a href="{{ item[1].url }}" title="{{ item[1].title }}" class="waves-effect waves-primary">
+        <a href="{{ item[1].link }}" title="{{ item[1].title }}" class="waves-effect waves-primary">
             <i class="fas fa-{{ item[1].icon }}"></i> {{ item[1].title }}
         </a>
     </li>
