@@ -7,6 +7,22 @@ backend:
 media_folder: "assets/img/uploads"
 
 collections:
+
+  - label: "Dados"
+    name: "data"
+    files:
+      - label: "Contactos"
+        name: "contactos"
+        file: "/_data/contactos.yml"
+        fields:
+          - {label: "Titulo", name: "title", widget: "string"}
+          - label: "Icones"
+            name: "icon"
+            widget: "select"
+            options: ["facebook-f", "facebook-messenger", "whatsapp", "instagram", "envelope", "phone"]
+          - {label: "Email", name: "email", widget: "boolean"}
+          - {label: "Telefone", name: "phone", widget: "boolean"}
+
   - label: "Slider"
     name: "slider"
     folder: "collections/_slider"

@@ -16,8 +16,10 @@
 
 - title: Email
   icon: envelope-open-text
-  link: mailto:geral@rovumaholdings.com
+  link: geral@rovumaholdings.com
+  email: true
 
 - title: Telefone
   icon: phone
-  link: tel:258846744888
+  link: "+258846744888"
+  phone: true
